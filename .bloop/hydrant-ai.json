@@ -1,0 +1,1910 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "hydrant-ai",
+        "directory": "C:\\Users\\Nihal Mirpuri\\hydrant-ai",
+        "workspaceDir": "C:\\Users\\Nihal Mirpuri\\hydrant-ai",
+        "sources": [
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\src\\main\\scala-2.13",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\src\\main\\scala",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\src\\main\\java",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\target\\scala-2.13\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.6\\commons-lang3-3.6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-tsne\\1.0.0-beta6\\deeplearning4j-tsne-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-modelimport\\1.0.0-beta6\\deeplearning4j-modelimport-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\gson\\gson\\2.8.0\\gson-2.8.0.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\tesseract\\4.1.0-1.5.2\\tesseract-4.1.0-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-macosx-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2-linux-arm64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\common\\common-image\\3.1.1\\common-image-3.1.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\it\\unimi\\dsi\\fastutil\\6.5.7\\fastutil-6.5.7.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-linux-armhf.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.13\\2.1.1\\cats-core_2.13-2.1.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\jai-imageio\\jai-imageio-core\\1.3.0\\jai-imageio-core-1.3.0.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.24\\slf4j-api-1.7.24.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6-windows-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\common\\common-lang\\3.1.1\\common-lang-3.1.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-windows-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-linux-arm64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.1\\scala-library-2.13.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-linux-x86.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-linux-ppc64le.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jctools\\jctools-core\\2.1.2\\jctools-core-2.1.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2-linux-ppc64le.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\ffmpeg\\4.2.1-1.5.2\\ffmpeg-4.2.1-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6-android-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-linux-armhf.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-linux-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2-linux-armhf.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-linux-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-linux-ppc64le.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\commons-net\\commons-net\\3.1\\commons-net-3.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-android-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-tail_2.13\\3.2.2\\monix-tail_2.13-3.2.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-linux-x86.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-android-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-nn\\1.0.0-beta6\\deeplearning4j-nn-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\commons-io\\commons-io\\2.5\\commons-io-2.5.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas-platform\\0.3.7-1.5.2\\openblas-platform-0.3.7-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-core\\1.0.0-beta6\\deeplearning4j-core-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-psd\\3.1.1\\imageio-psd-3.1.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.13\\2.1.1\\cats-macros_2.13-2.1.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6-ios-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\libfreenect2\\0.2.0-1.5.2\\libfreenect2-0.2.0-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-java_2.13\\3.2.2\\monix-java_2.13-3.2.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\datavec\\datavec-api\\1.0.0-beta6\\datavec-api-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native-platform\\1.0.0-beta6\\nd4j-native-platform-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\artoolkitplus\\2.3.1-1.5.2\\artoolkitplus-2.3.1-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\librealsense\\1.12.4-1.5.2\\librealsense-1.12.4-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-macosx-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-android-x86.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-utility-iterators\\1.0.0-beta6\\deeplearning4j-utility-iterators-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\tdunning\\t-digest\\3.2\\t-digest-3.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\flandmark\\1.07-1.5.2\\flandmark-1.07-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-ui-components\\1.0.0-beta6\\deeplearning4j-ui-components-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-datavec-iterators\\1.0.0-beta6\\deeplearning4j-datavec-iterators-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6-linux-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5\\1.10.5-1.5.2\\hdf5-1.10.5-1.5.2-macosx-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-ios-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\flatbuffers\\flatbuffers-java\\1.10.0\\flatbuffers-java-1.10.0.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\mkl\\2019.5-1.5.2\\mkl-2019.5-1.5.2-linux-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-buffer\\1.0.0-beta6\\nd4j-buffer-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\oshi\\oshi-core\\3.4.2\\oshi-core-3.4.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5\\1.10.5-1.5.2\\hdf5-1.10.5-1.5.2-linux-x86.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-android-arm.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2-android-x86.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\javacpp\\1.5.2\\javacpp-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect_2.13\\2.1.3\\cats-effect_2.13-2.1.3.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-android-arm64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\libfreenect\\0.5.7-1.5.2\\libfreenect-0.5.7-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-compress\\1.18\\commons-compress-1.18.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5\\1.10.5-1.5.2\\hdf5-1.10.5-1.5.2-linux-arm64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\mkl\\2019.5-1.5.2\\mkl-2019.5-1.5.2-macosx-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-windows-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\clearspring\\analytics\\stream\\2.7.0\\stream-2.7.0.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-android-arm64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\guava\\1.0.0-beta6\\guava-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\jackson\\1.0.0-beta6\\jackson-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\commons-codec\\commons-codec\\1.10\\commons-codec-1.10.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-eval_2.13\\3.2.2\\monix-eval_2.13-3.2.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-android-arm.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-ios-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-linux-arm64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\mkl-platform\\2019.5-1.5.2\\mkl-platform-2019.5-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-ios-arm64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\lucee\\oswego-concurrent\\1.3.4\\oswego-concurrent-1.3.4.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\nearestneighbor-core\\1.0.0-beta6\\nearestneighbor-core-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-metadata\\3.1.1\\imageio-metadata-3.1.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2-linux-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6-linux-armhf.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6-ios-arm64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\mkl\\2019.5-1.5.2\\mkl-2019.5-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-execution_2.13\\3.2.2\\monix-execution_2.13-3.2.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-context\\1.0.0-beta6\\nd4j-context-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jakewharton\\byteunits\\byteunits\\0.9.1\\byteunits-0.9.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-tiff\\3.1.1\\imageio-tiff-3.1.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\opencsv\\opencsv\\2.3\\opencsv-2.3.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5\\1.10.5-1.5.2\\hdf5-1.10.5-1.5.2-linux-ppc64le.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5\\1.10.5-1.5.2\\hdf5-1.10.5-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.13\\2.1.1\\cats-kernel_2.13-2.1.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5\\1.10.5-1.5.2\\hdf5-1.10.5-1.5.2-linux-armhf.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native-api\\1.0.0-beta6\\nd4j-native-api-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\mkl\\2019.5-1.5.2\\mkl-2019.5-1.5.2-linux-x86.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-jpeg\\3.1.1\\imageio-jpeg-3.1.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\freemarker\\freemarker\\2.3.23\\freemarker-2.3.23.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica-platform\\1.78.0-1.5.2\\leptonica-platform-1.78.0-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2-macosx-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2-android-arm.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\protobuf\\1.0.0-beta6\\protobuf-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6-macosx-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-reactive_2.13\\3.2.2\\monix-reactive_2.13-3.2.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\javacv\\1.5.2\\javacv-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\4.3.0\\jna-4.3.0.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\librealsense2\\2.29.0-1.5.2\\librealsense2-2.29.0-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2-android-arm64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2-windows-x86.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\mkl\\2019.5-1.5.2\\mkl-2019.5-1.5.2-windows-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-common\\1.0.0-beta6\\deeplearning4j-common-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5\\1.10.5-1.5.2\\hdf5-1.10.5-1.5.2-windows-x86.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-ios-arm64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna-platform\\4.3.0\\jna-platform-4.3.0.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-windows-x86.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6-android-x86.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\joda-time\\joda-time\\2.2\\joda-time-2.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-android-x86.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv-platform\\4.1.2-1.5.2\\opencv-platform-4.1.2-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-math3\\3.5\\commons-math3-3.5.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5\\1.10.5-1.5.2\\hdf5-1.10.5-1.5.2-windows-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6-linux-ppc64le.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-util\\1.0.0-beta6\\deeplearning4j-util-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.3\\reactive-streams-1.0.3.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-jackson\\1.0.0-beta6\\nd4j-jackson-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\ericaro\\neoitertools\\1.0.0\\neoitertools-1.0.0.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6-android-arm.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-bmp\\3.1.1\\imageio-bmp-3.1.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix_2.13\\3.2.2\\monix_2.13-3.2.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-catnap_2.13\\3.2.2\\monix-catnap_2.13-3.2.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\common\\common-io\\3.1.1\\common-io-3.1.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\threeten\\threetenbp\\1.3.3\\threetenbp-1.3.3.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2-android-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-windows-x86.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\libdc1394\\2.2.6-1.5.2\\libdc1394-2.2.6-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\mkl\\2019.5-1.5.2\\mkl-2019.5-1.5.2-windows-x86.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-api\\1.0.0-beta6\\nd4j-api-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-datasets\\1.0.0-beta6\\deeplearning4j-datasets-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2-windows-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6-android-arm64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5-platform\\1.10.5-1.5.2\\hdf5-platform-1.10.5-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\videoinput\\0.200-1.5.2\\videoinput-0.200-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2-linux-x86.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-common\\1.0.0-beta6\\nd4j-common-1.0.0-beta6.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\flycapture\\2.13.3.31-1.5.2\\flycapture-2.13.3.31-1.5.2.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\implicitbox_2.13\\0.2.0\\implicitbox_2.13-0.2.0.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-core\\3.1.1\\imageio-core-3.1.1.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5\\1.10.5-1.5.2\\hdf5-1.10.5-1.5.2-linux-x86_64.jar",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\datavec\\datavec-data-image\\1.0.0-beta6\\datavec-data-image-1.0.0-beta6.jar"
+        ],
+        "out": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\.bloop\\hydrant-ai",
+        "classesDir": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\.bloop\\hydrant-ai\\scala-2.13\\classes",
+        "resources": [
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\src\\main\\resources",
+            "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\target\\scala-2.13\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.1",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.1\\scala-library-2.13.1.jar",
+                "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.1\\scala-compiler-2.13.1.jar",
+                "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\jline\\jline\\2.14.6\\jline-2.14.6.jar",
+                "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\fusesource\\jansi\\jansi\\1.12\\jansi-1.12.jar",
+                "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.1\\scala-reflect-2.13.1.jar"
+            ],
+            "analysis": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.13.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files (x86)\\Java\\jre1.8.0_261",
+                "options": [
+                    "-Duser.dir=C:\\Users\\Nihal Mirpuri\\hydrant-ai"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.6\\commons-lang3-3.6.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.6\\commons-lang3-3.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.deeplearning4j",
+                    "name": "deeplearning4j-tsne",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "deeplearning4j-tsne",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-tsne\\1.0.0-beta6\\deeplearning4j-tsne-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "deeplearning4j-tsne",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-tsne\\1.0.0-beta6\\deeplearning4j-tsne-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.deeplearning4j",
+                    "name": "deeplearning4j-modelimport",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "deeplearning4j-modelimport",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-modelimport\\1.0.0-beta6\\deeplearning4j-modelimport-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "deeplearning4j-modelimport",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-modelimport\\1.0.0-beta6\\deeplearning4j-modelimport-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.gson",
+                    "name": "gson",
+                    "version": "2.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gson",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\gson\\gson\\2.8.0\\gson-2.8.0.jar"
+                        },
+                        {
+                            "name": "gson",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\gson\\gson\\2.8.0\\gson-2.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "tesseract",
+                    "version": "4.1.0-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "tesseract",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\tesseract\\4.1.0-1.5.2\\tesseract-4.1.0-1.5.2.jar"
+                        },
+                        {
+                            "name": "tesseract",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\tesseract\\4.1.0-1.5.2\\tesseract-4.1.0-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twelvemonkeys.common",
+                    "name": "common-image",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "common-image",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\common\\common-image\\3.1.1\\common-image-3.1.1.jar"
+                        },
+                        {
+                            "name": "common-image",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\common\\common-image\\3.1.1\\common-image-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "it.unimi.dsi",
+                    "name": "fastutil",
+                    "version": "6.5.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fastutil",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\it\\unimi\\dsi\\fastutil\\6.5.7\\fastutil-6.5.7.jar"
+                        },
+                        {
+                            "name": "fastutil",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\it\\unimi\\dsi\\fastutil\\6.5.7\\fastutil-6.5.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-core_2.13",
+                    "version": "2.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-core_2.13",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.13\\2.1.1\\cats-core_2.13-2.1.1.jar"
+                        },
+                        {
+                            "name": "cats-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.13\\2.1.1\\cats-core_2.13-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.jai-imageio",
+                    "name": "jai-imageio-core",
+                    "version": "1.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jai-imageio-core",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\jai-imageio\\jai-imageio-core\\1.3.0\\jai-imageio-core-1.3.0.jar"
+                        },
+                        {
+                            "name": "jai-imageio-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\jai-imageio\\jai-imageio-core\\1.3.0\\jai-imageio-core-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.24",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.24\\slf4j-api-1.7.24.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.24\\slf4j-api-1.7.24-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twelvemonkeys.common",
+                    "name": "common-lang",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "common-lang",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\common\\common-lang\\3.1.1\\common-lang-3.1.1.jar"
+                        },
+                        {
+                            "name": "common-lang",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\common\\common-lang\\3.1.1\\common-lang-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.1\\scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.1\\scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jctools",
+                    "name": "jctools-core",
+                    "version": "2.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jctools-core",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jctools\\jctools-core\\2.1.2\\jctools-core-2.1.2.jar"
+                        },
+                        {
+                            "name": "jctools-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jctools\\jctools-core\\2.1.2\\jctools-core-2.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "ffmpeg",
+                    "version": "4.2.1-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ffmpeg",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\ffmpeg\\4.2.1-1.5.2\\ffmpeg-4.2.1-1.5.2.jar"
+                        },
+                        {
+                            "name": "ffmpeg",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\ffmpeg\\4.2.1-1.5.2\\ffmpeg-4.2.1-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-net",
+                    "name": "commons-net",
+                    "version": "3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-net",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\commons-net\\commons-net\\3.1\\commons-net-3.1.jar"
+                        },
+                        {
+                            "name": "commons-net",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\commons-net\\commons-net\\3.1\\commons-net-3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix-tail_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix-tail_2.13",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-tail_2.13\\3.2.2\\monix-tail_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "monix-tail_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-tail_2.13\\3.2.2\\monix-tail_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.deeplearning4j",
+                    "name": "deeplearning4j-nn",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "deeplearning4j-nn",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-nn\\1.0.0-beta6\\deeplearning4j-nn-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "deeplearning4j-nn",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-nn\\1.0.0-beta6\\deeplearning4j-nn-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-io",
+                    "name": "commons-io",
+                    "version": "2.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\commons-io\\commons-io\\2.5\\commons-io-2.5.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\commons-io\\commons-io\\2.5\\commons-io-2.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "openblas-platform",
+                    "version": "0.3.7-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "openblas-platform",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas-platform\\0.3.7-1.5.2\\openblas-platform-0.3.7-1.5.2.jar"
+                        },
+                        {
+                            "name": "openblas-platform",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas-platform\\0.3.7-1.5.2\\openblas-platform-0.3.7-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.deeplearning4j",
+                    "name": "deeplearning4j-core",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "deeplearning4j-core",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-core\\1.0.0-beta6\\deeplearning4j-core-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "deeplearning4j-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-core\\1.0.0-beta6\\deeplearning4j-core-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twelvemonkeys.imageio",
+                    "name": "imageio-psd",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "imageio-psd",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-psd\\3.1.1\\imageio-psd-3.1.1.jar"
+                        },
+                        {
+                            "name": "imageio-psd",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-psd\\3.1.1\\imageio-psd-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-macros_2.13",
+                    "version": "2.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-macros_2.13",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.13\\2.1.1\\cats-macros_2.13-2.1.1.jar"
+                        },
+                        {
+                            "name": "cats-macros_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.13\\2.1.1\\cats-macros_2.13-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "libfreenect2",
+                    "version": "0.2.0-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "libfreenect2",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\libfreenect2\\0.2.0-1.5.2\\libfreenect2-0.2.0-1.5.2.jar"
+                        },
+                        {
+                            "name": "libfreenect2",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\libfreenect2\\0.2.0-1.5.2\\libfreenect2-0.2.0-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix-java_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix-java_2.13",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-java_2.13\\3.2.2\\monix-java_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "monix-java_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-java_2.13\\3.2.2\\monix-java_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.datavec",
+                    "name": "datavec-api",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "datavec-api",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\datavec\\datavec-api\\1.0.0-beta6\\datavec-api-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "datavec-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\datavec\\datavec-api\\1.0.0-beta6\\datavec-api-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.nd4j",
+                    "name": "nd4j-native-platform",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "nd4j-native-platform",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native-platform\\1.0.0-beta6\\nd4j-native-platform-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "nd4j-native-platform",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native-platform\\1.0.0-beta6\\nd4j-native-platform-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "artoolkitplus",
+                    "version": "2.3.1-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "artoolkitplus",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\artoolkitplus\\2.3.1-1.5.2\\artoolkitplus-2.3.1-1.5.2.jar"
+                        },
+                        {
+                            "name": "artoolkitplus",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\artoolkitplus\\2.3.1-1.5.2\\artoolkitplus-2.3.1-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "librealsense",
+                    "version": "1.12.4-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "librealsense",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\librealsense\\1.12.4-1.5.2\\librealsense-1.12.4-1.5.2.jar"
+                        },
+                        {
+                            "name": "librealsense",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\librealsense\\1.12.4-1.5.2\\librealsense-1.12.4-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.deeplearning4j",
+                    "name": "deeplearning4j-utility-iterators",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "deeplearning4j-utility-iterators",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-utility-iterators\\1.0.0-beta6\\deeplearning4j-utility-iterators-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "deeplearning4j-utility-iterators",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-utility-iterators\\1.0.0-beta6\\deeplearning4j-utility-iterators-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.tdunning",
+                    "name": "t-digest",
+                    "version": "3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "t-digest",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\tdunning\\t-digest\\3.2\\t-digest-3.2.jar"
+                        },
+                        {
+                            "name": "t-digest",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\tdunning\\t-digest\\3.2\\t-digest-3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "flandmark",
+                    "version": "1.07-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flandmark",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\flandmark\\1.07-1.5.2\\flandmark-1.07-1.5.2.jar"
+                        },
+                        {
+                            "name": "flandmark",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\flandmark\\1.07-1.5.2\\flandmark-1.07-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.deeplearning4j",
+                    "name": "deeplearning4j-ui-components",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "deeplearning4j-ui-components",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-ui-components\\1.0.0-beta6\\deeplearning4j-ui-components-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "deeplearning4j-ui-components",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-ui-components\\1.0.0-beta6\\deeplearning4j-ui-components-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.deeplearning4j",
+                    "name": "deeplearning4j-datavec-iterators",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "deeplearning4j-datavec-iterators",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-datavec-iterators\\1.0.0-beta6\\deeplearning4j-datavec-iterators-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "deeplearning4j-datavec-iterators",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-datavec-iterators\\1.0.0-beta6\\deeplearning4j-datavec-iterators-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.flatbuffers",
+                    "name": "flatbuffers-java",
+                    "version": "1.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flatbuffers-java",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\flatbuffers\\flatbuffers-java\\1.10.0\\flatbuffers-java-1.10.0.jar"
+                        },
+                        {
+                            "name": "flatbuffers-java",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\flatbuffers\\flatbuffers-java\\1.10.0\\flatbuffers-java-1.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.nd4j",
+                    "name": "nd4j-buffer",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "nd4j-buffer",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-buffer\\1.0.0-beta6\\nd4j-buffer-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "nd4j-buffer",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-buffer\\1.0.0-beta6\\nd4j-buffer-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.oshi",
+                    "name": "oshi-core",
+                    "version": "3.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "oshi-core",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\oshi\\oshi-core\\3.4.2\\oshi-core-3.4.2.jar"
+                        },
+                        {
+                            "name": "oshi-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\oshi\\oshi-core\\3.4.2\\oshi-core-3.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "javacpp",
+                    "version": "1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javacpp",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\javacpp\\1.5.2\\javacpp-1.5.2.jar"
+                        },
+                        {
+                            "name": "javacpp",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\javacpp\\1.5.2\\javacpp-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect_2.13",
+                    "version": "2.1.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect_2.13",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect_2.13\\2.1.3\\cats-effect_2.13-2.1.3.jar"
+                        },
+                        {
+                            "name": "cats-effect_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect_2.13\\2.1.3\\cats-effect_2.13-2.1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "libfreenect",
+                    "version": "0.5.7-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "libfreenect",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\libfreenect\\0.5.7-1.5.2\\libfreenect-0.5.7-1.5.2.jar"
+                        },
+                        {
+                            "name": "libfreenect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\libfreenect\\0.5.7-1.5.2\\libfreenect-0.5.7-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-compress",
+                    "version": "1.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-compress",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-compress\\1.18\\commons-compress-1.18.jar"
+                        },
+                        {
+                            "name": "commons-compress",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-compress\\1.18\\commons-compress-1.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.clearspring.analytics",
+                    "name": "stream",
+                    "version": "2.7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "stream",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\clearspring\\analytics\\stream\\2.7.0\\stream-2.7.0.jar"
+                        },
+                        {
+                            "name": "stream",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\clearspring\\analytics\\stream\\2.7.0\\stream-2.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.nd4j",
+                    "name": "guava",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\guava\\1.0.0-beta6\\guava-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\guava\\1.0.0-beta6\\guava-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.nd4j",
+                    "name": "jackson",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\jackson\\1.0.0-beta6\\jackson-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "jackson",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\jackson\\1.0.0-beta6\\jackson-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\commons-codec\\commons-codec\\1.10\\commons-codec-1.10.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\commons-codec\\commons-codec\\1.10\\commons-codec-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix-eval_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix-eval_2.13",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-eval_2.13\\3.2.2\\monix-eval_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "monix-eval_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-eval_2.13\\3.2.2\\monix-eval_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "mkl-platform",
+                    "version": "2019.5-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "mkl-platform",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\mkl-platform\\2019.5-1.5.2\\mkl-platform-2019.5-1.5.2.jar"
+                        },
+                        {
+                            "name": "mkl-platform",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\mkl-platform\\2019.5-1.5.2\\mkl-platform-2019.5-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.lucee",
+                    "name": "oswego-concurrent",
+                    "version": "1.3.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "oswego-concurrent",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\lucee\\oswego-concurrent\\1.3.4\\oswego-concurrent-1.3.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.deeplearning4j",
+                    "name": "nearestneighbor-core",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "nearestneighbor-core",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\nearestneighbor-core\\1.0.0-beta6\\nearestneighbor-core-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "nearestneighbor-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\nearestneighbor-core\\1.0.0-beta6\\nearestneighbor-core-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "opencv",
+                    "version": "4.1.2-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "opencv",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2.jar"
+                        },
+                        {
+                            "name": "opencv",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-sources.jar"
+                        },
+                        {
+                            "name": "opencv",
+                            "classifier": "windows-x86_64",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv\\4.1.2-1.5.2\\opencv-4.1.2-1.5.2-windows-x86_64.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twelvemonkeys.imageio",
+                    "name": "imageio-metadata",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "imageio-metadata",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-metadata\\3.1.1\\imageio-metadata-3.1.1.jar"
+                        },
+                        {
+                            "name": "imageio-metadata",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-metadata\\3.1.1\\imageio-metadata-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "openblas",
+                    "version": "0.3.7-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "openblas",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2.jar"
+                        },
+                        {
+                            "name": "openblas",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-sources.jar"
+                        },
+                        {
+                            "name": "openblas",
+                            "classifier": "macosx-x86_64",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\openblas\\0.3.7-1.5.2\\openblas-0.3.7-1.5.2-macosx-x86_64.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "mkl",
+                    "version": "2019.5-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "mkl",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\mkl\\2019.5-1.5.2\\mkl-2019.5-1.5.2.jar"
+                        },
+                        {
+                            "name": "mkl",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\mkl\\2019.5-1.5.2\\mkl-2019.5-1.5.2-sources.jar"
+                        },
+                        {
+                            "name": "mkl",
+                            "classifier": "linux-x86_64",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\mkl\\2019.5-1.5.2\\mkl-2019.5-1.5.2-linux-x86_64.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix-execution_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix-execution_2.13",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-execution_2.13\\3.2.2\\monix-execution_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "monix-execution_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-execution_2.13\\3.2.2\\monix-execution_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.nd4j",
+                    "name": "nd4j-context",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "nd4j-context",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-context\\1.0.0-beta6\\nd4j-context-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "nd4j-context",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-context\\1.0.0-beta6\\nd4j-context-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.jakewharton.byteunits",
+                    "name": "byteunits",
+                    "version": "0.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "byteunits",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jakewharton\\byteunits\\byteunits\\0.9.1\\byteunits-0.9.1.jar"
+                        },
+                        {
+                            "name": "byteunits",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jakewharton\\byteunits\\byteunits\\0.9.1\\byteunits-0.9.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twelvemonkeys.imageio",
+                    "name": "imageio-tiff",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "imageio-tiff",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-tiff\\3.1.1\\imageio-tiff-3.1.1.jar"
+                        },
+                        {
+                            "name": "imageio-tiff",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-tiff\\3.1.1\\imageio-tiff-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sf.opencsv",
+                    "name": "opencsv",
+                    "version": "2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "opencsv",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\opencsv\\opencsv\\2.3\\opencsv-2.3.jar"
+                        },
+                        {
+                            "name": "opencsv",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\opencsv\\opencsv\\2.3\\opencsv-2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "hdf5",
+                    "version": "1.10.5-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hdf5",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5\\1.10.5-1.5.2\\hdf5-1.10.5-1.5.2.jar"
+                        },
+                        {
+                            "name": "hdf5",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5\\1.10.5-1.5.2\\hdf5-1.10.5-1.5.2-sources.jar"
+                        },
+                        {
+                            "name": "hdf5",
+                            "classifier": "macosx-x86_64",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5\\1.10.5-1.5.2\\hdf5-1.10.5-1.5.2-macosx-x86_64.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_2.13",
+                    "version": "2.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_2.13",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.13\\2.1.1\\cats-kernel_2.13-2.1.1.jar"
+                        },
+                        {
+                            "name": "cats-kernel_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.13\\2.1.1\\cats-kernel_2.13-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.nd4j",
+                    "name": "nd4j-native-api",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "nd4j-native-api",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native-api\\1.0.0-beta6\\nd4j-native-api-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "nd4j-native-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native-api\\1.0.0-beta6\\nd4j-native-api-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twelvemonkeys.imageio",
+                    "name": "imageio-jpeg",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "imageio-jpeg",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-jpeg\\3.1.1\\imageio-jpeg-3.1.1.jar"
+                        },
+                        {
+                            "name": "imageio-jpeg",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-jpeg\\3.1.1\\imageio-jpeg-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.freemarker",
+                    "name": "freemarker",
+                    "version": "2.3.23",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "freemarker",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\freemarker\\freemarker\\2.3.23\\freemarker-2.3.23.jar"
+                        },
+                        {
+                            "name": "freemarker",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\freemarker\\freemarker\\2.3.23\\freemarker-2.3.23-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "leptonica-platform",
+                    "version": "1.78.0-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "leptonica-platform",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica-platform\\1.78.0-1.5.2\\leptonica-platform-1.78.0-1.5.2.jar"
+                        },
+                        {
+                            "name": "leptonica-platform",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica-platform\\1.78.0-1.5.2\\leptonica-platform-1.78.0-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.nd4j",
+                    "name": "protobuf",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "protobuf",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\protobuf\\1.0.0-beta6\\protobuf-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "protobuf",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\protobuf\\1.0.0-beta6\\protobuf-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix-reactive_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix-reactive_2.13",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-reactive_2.13\\3.2.2\\monix-reactive_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "monix-reactive_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-reactive_2.13\\3.2.2\\monix-reactive_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "javacv",
+                    "version": "1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javacv",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\javacv\\1.5.2\\javacv-1.5.2.jar"
+                        },
+                        {
+                            "name": "javacv",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\javacv\\1.5.2\\javacv-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna",
+                    "version": "4.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jna",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\4.3.0\\jna-4.3.0.jar"
+                        },
+                        {
+                            "name": "jna",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\4.3.0\\jna-4.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.nd4j",
+                    "name": "nd4j-native",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "nd4j-native",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "nd4j-native",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6-sources.jar"
+                        },
+                        {
+                            "name": "nd4j-native",
+                            "classifier": "windows-x86_64",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-native\\1.0.0-beta6\\nd4j-native-1.0.0-beta6-windows-x86_64.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "librealsense2",
+                    "version": "2.29.0-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "librealsense2",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\librealsense2\\2.29.0-1.5.2\\librealsense2-2.29.0-1.5.2.jar"
+                        },
+                        {
+                            "name": "librealsense2",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\librealsense2\\2.29.0-1.5.2\\librealsense2-2.29.0-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.deeplearning4j",
+                    "name": "deeplearning4j-common",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "deeplearning4j-common",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-common\\1.0.0-beta6\\deeplearning4j-common-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "deeplearning4j-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-common\\1.0.0-beta6\\deeplearning4j-common-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna-platform",
+                    "version": "4.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jna-platform",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna-platform\\4.3.0\\jna-platform-4.3.0.jar"
+                        },
+                        {
+                            "name": "jna-platform",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna-platform\\4.3.0\\jna-platform-4.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "joda-time",
+                    "name": "joda-time",
+                    "version": "2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-time",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\joda-time\\joda-time\\2.2\\joda-time-2.2.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\joda-time\\joda-time\\2.2\\joda-time-2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "leptonica",
+                    "version": "1.78.0-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "leptonica",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2.jar"
+                        },
+                        {
+                            "name": "leptonica",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2-sources.jar"
+                        },
+                        {
+                            "name": "leptonica",
+                            "classifier": "linux-arm64",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\leptonica\\1.78.0-1.5.2\\leptonica-1.78.0-1.5.2-linux-arm64.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "opencv-platform",
+                    "version": "4.1.2-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "opencv-platform",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv-platform\\4.1.2-1.5.2\\opencv-platform-4.1.2-1.5.2.jar"
+                        },
+                        {
+                            "name": "opencv-platform",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\opencv-platform\\4.1.2-1.5.2\\opencv-platform-4.1.2-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-math3",
+                    "version": "3.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-math3",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-math3\\3.5\\commons-math3-3.5.jar"
+                        },
+                        {
+                            "name": "commons-math3",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-math3\\3.5\\commons-math3-3.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.deeplearning4j",
+                    "name": "deeplearning4j-util",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "deeplearning4j-util",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-util\\1.0.0-beta6\\deeplearning4j-util-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "deeplearning4j-util",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-util\\1.0.0-beta6\\deeplearning4j-util-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.3\\reactive-streams-1.0.3.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.3\\reactive-streams-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.nd4j",
+                    "name": "nd4j-jackson",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "nd4j-jackson",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-jackson\\1.0.0-beta6\\nd4j-jackson-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "nd4j-jackson",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-jackson\\1.0.0-beta6\\nd4j-jackson-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.ericaro",
+                    "name": "neoitertools",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "neoitertools",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\ericaro\\neoitertools\\1.0.0\\neoitertools-1.0.0.jar"
+                        },
+                        {
+                            "name": "neoitertools",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\ericaro\\neoitertools\\1.0.0\\neoitertools-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twelvemonkeys.imageio",
+                    "name": "imageio-bmp",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "imageio-bmp",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-bmp\\3.1.1\\imageio-bmp-3.1.1.jar"
+                        },
+                        {
+                            "name": "imageio-bmp",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-bmp\\3.1.1\\imageio-bmp-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix_2.13",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix_2.13\\3.2.2\\monix_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "monix_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix_2.13\\3.2.2\\monix_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix-catnap_2.13",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix-catnap_2.13",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-catnap_2.13\\3.2.2\\monix-catnap_2.13-3.2.2.jar"
+                        },
+                        {
+                            "name": "monix-catnap_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\monix-catnap_2.13\\3.2.2\\monix-catnap_2.13-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twelvemonkeys.common",
+                    "name": "common-io",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "common-io",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\common\\common-io\\3.1.1\\common-io-3.1.1.jar"
+                        },
+                        {
+                            "name": "common-io",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\common\\common-io\\3.1.1\\common-io-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.threeten",
+                    "name": "threetenbp",
+                    "version": "1.3.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "threetenbp",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\threeten\\threetenbp\\1.3.3\\threetenbp-1.3.3.jar"
+                        },
+                        {
+                            "name": "threetenbp",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\threeten\\threetenbp\\1.3.3\\threetenbp-1.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "libdc1394",
+                    "version": "2.2.6-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "libdc1394",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\libdc1394\\2.2.6-1.5.2\\libdc1394-2.2.6-1.5.2.jar"
+                        },
+                        {
+                            "name": "libdc1394",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\libdc1394\\2.2.6-1.5.2\\libdc1394-2.2.6-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.nd4j",
+                    "name": "nd4j-api",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "nd4j-api",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-api\\1.0.0-beta6\\nd4j-api-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "nd4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-api\\1.0.0-beta6\\nd4j-api-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.deeplearning4j",
+                    "name": "deeplearning4j-datasets",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "deeplearning4j-datasets",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-datasets\\1.0.0-beta6\\deeplearning4j-datasets-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "deeplearning4j-datasets",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\deeplearning4j\\deeplearning4j-datasets\\1.0.0-beta6\\deeplearning4j-datasets-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "hdf5-platform",
+                    "version": "1.10.5-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hdf5-platform",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5-platform\\1.10.5-1.5.2\\hdf5-platform-1.10.5-1.5.2.jar"
+                        },
+                        {
+                            "name": "hdf5-platform",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\hdf5-platform\\1.10.5-1.5.2\\hdf5-platform-1.10.5-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "videoinput",
+                    "version": "0.200-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "videoinput",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\videoinput\\0.200-1.5.2\\videoinput-0.200-1.5.2.jar"
+                        },
+                        {
+                            "name": "videoinput",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\videoinput\\0.200-1.5.2\\videoinput-0.200-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.nd4j",
+                    "name": "nd4j-common",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "nd4j-common",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-common\\1.0.0-beta6\\nd4j-common-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "nd4j-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nd4j\\nd4j-common\\1.0.0-beta6\\nd4j-common-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bytedeco",
+                    "name": "flycapture",
+                    "version": "2.13.3.31-1.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flycapture",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\flycapture\\2.13.3.31-1.5.2\\flycapture-2.13.3.31-1.5.2.jar"
+                        },
+                        {
+                            "name": "flycapture",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bytedeco\\flycapture\\2.13.3.31-1.5.2\\flycapture-2.13.3.31-1.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "implicitbox_2.13",
+                    "version": "0.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "implicitbox_2.13",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\implicitbox_2.13\\0.2.0\\implicitbox_2.13-0.2.0.jar"
+                        },
+                        {
+                            "name": "implicitbox_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\io\\monix\\implicitbox_2.13\\0.2.0\\implicitbox_2.13-0.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twelvemonkeys.imageio",
+                    "name": "imageio-core",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "imageio-core",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-core\\3.1.1\\imageio-core-3.1.1.jar"
+                        },
+                        {
+                            "name": "imageio-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twelvemonkeys\\imageio\\imageio-core\\3.1.1\\imageio-core-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.datavec",
+                    "name": "datavec-data-image",
+                    "version": "1.0.0-beta6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "datavec-data-image",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\datavec\\datavec-data-image\\1.0.0-beta6\\datavec-data-image-1.0.0-beta6.jar"
+                        },
+                        {
+                            "name": "datavec-data-image",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\datavec\\datavec-data-image\\1.0.0-beta6\\datavec-data-image-1.0.0-beta6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.1\\scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Nihal Mirpuri\\hydrant-ai\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.1\\scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

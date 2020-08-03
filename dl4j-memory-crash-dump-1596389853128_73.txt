@@ -1,0 +1,154 @@
+Deeplearning4j OOM Exception Encountered for MultiLayerNetwork
+Timestamp:                              2020-08-02 18:37:33.128
+Thread ID                               73
+Thread Name                             run-main-0
+
+
+Stack Trace:
+java.lang.OutOfMemoryError: Cannot allocate new FloatPointer(186106144): totalBytes = 712M, physicalBytes = 1504M
+	at org.bytedeco.javacpp.FloatPointer.<init>(FloatPointer.java:76)
+	at org.nd4j.linalg.api.buffer.BaseDataBuffer.<init>(BaseDataBuffer.java:710)
+	at org.nd4j.linalg.api.buffer.FloatBuffer.<init>(FloatBuffer.java:54)
+	at org.nd4j.linalg.api.buffer.factory.DefaultDataBufferFactory.create(DefaultDataBufferFactory.java:290)
+	at org.nd4j.linalg.factory.Nd4j.createBuffer(Nd4j.java:1455)
+	at org.nd4j.linalg.api.ndarray.BaseNDArray.<init>(BaseNDArray.java:341)
+	at org.nd4j.linalg.cpu.nativecpu.NDArray.<init>(NDArray.java:193)
+	at org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory.createUninitialized(CpuNDArrayFactory.java:241)
+	at org.nd4j.linalg.factory.Nd4j.createUninitialized(Nd4j.java:4339)
+	at org.deeplearning4j.nn.updater.BaseMultiLayerUpdater.<init>(BaseMultiLayerUpdater.java:156)
+	at org.deeplearning4j.nn.updater.MultiLayerUpdater.<init>(MultiLayerUpdater.java:45)
+	at org.deeplearning4j.nn.updater.MultiLayerUpdater.<init>(MultiLayerUpdater.java:41)
+	at org.deeplearning4j.nn.updater.UpdaterCreator.getUpdater(UpdaterCreator.java:36)
+	at org.deeplearning4j.optimize.solvers.BaseOptimizer.updateGradientAccordingToParams(BaseOptimizer.java:300)
+	at org.deeplearning4j.optimize.solvers.BaseOptimizer.gradientAndScore(BaseOptimizer.java:182)
+	at org.deeplearning4j.optimize.solvers.StochasticGradientDescent.optimize(StochasticGradientDescent.java:63)
+	at org.deeplearning4j.optimize.Solver.optimize(Solver.java:52)
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fitHelper(MultiLayerNetwork.java:2309)
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(MultiLayerNetwork.java:2267)
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(MultiLayerNetwork.java:2330)
+	at org.deeplearning4j.earlystopping.trainer.EarlyStoppingTrainer.fit(EarlyStoppingTrainer.java:60)
+	at org.deeplearning4j.earlystopping.trainer.BaseEarlyStoppingTrainer.fit(BaseEarlyStoppingTrainer.java:151)
+	at org.deeplearning4j.earlystopping.trainer.BaseEarlyStoppingTrainer.fit(BaseEarlyStoppingTrainer.java:94)
+	at ModelEvaluator$.$anonfun$train$1(ModelEvaluator.scala:56)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at monix.eval.internal.TaskRunSyncUnsafe$.apply(TaskRunSyncUnsafe.scala:62)
+	at monix.eval.Task.runSyncUnsafeOpt(Task.scala:1097)
+	at monix.eval.Task.runSyncUnsafe(Task.scala:1064)
+	at Main$.delayedEndpoint$Main$1(Main.scala:9)
+	at Main$delayedInit$body.apply(Main.scala:6)
+	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+	at scala.App.$anonfun$main$1(App.scala:73)
+	at scala.App.$anonfun$main$1$adapted(App.scala:73)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:921)
+	at scala.App.main(App.scala:73)
+	at scala.App.main$(App.scala:71)
+	at Main$.main(Main.scala:6)
+	at Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sbt.Run.invokeMain(Run.scala:115)
+	at sbt.Run.execute$1(Run.scala:79)
+	at sbt.Run.$anonfun$runWithLoader$4(Run.scala:92)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.util.InterfaceUtil$$anon$1.get(InterfaceUtil.scala:10)
+	at sbt.TrapExit$App.run(TrapExit.scala:257)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.OutOfMemoryError: Failed to allocate memory within limits: totalBytes (712M + 709M) > maxBytes (942M)
+	at org.bytedeco.javacpp.Pointer.deallocator(Pointer.java:655)
+	at org.bytedeco.javacpp.Pointer.init(Pointer.java:127)
+	at org.bytedeco.javacpp.FloatPointer.allocateArray(Native Method)
+	at org.bytedeco.javacpp.FloatPointer.<init>(FloatPointer.java:68)
+	... 52 more
+
+
+========== Memory Information ==========
+----- Version Information -----
+Deeplearning4j Version                  1.0.0-beta6
+Deeplearning4j CUDA                     <not present>
+
+----- System Information -----
+Operating System                        Microsoft Windows 10
+CPU                                     Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz
+CPU Cores - Physical                    4
+CPU Cores - Logical                     4
+Total System Memory                      15.93 GiB (17100963840)
+
+----- ND4J Environment Information -----
+Data Type                               FLOAT
+backend                                 CPU
+blas.vendor                             OPENBLAS
+os                                      Windows 10
+
+----- Memory Configuration -----
+JVM Memory: XMX                         962.50 MiB (1009254400)
+JVM Memory: current                     962.50 MiB (1009254400)
+JavaCPP Memory: Max Bytes               942.50 MiB (988282880)
+JavaCPP Memory: Max Physical              1.84 GiB (1976565760)
+JavaCPP Memory: Current Bytes           712.04 MiB (746632536)
+JavaCPP Memory: Current Physical          1.52 GiB (1628110848)
+Periodic GC Enabled                     false
+
+----- Workspace Information -----
+Workspaces: # for current thread        4
+Current thread workspaces:
+  Name                      State       Size                          # Cycles            
+  WS_LAYER_WORKING_MEM      CLOSED           .00 B                    12                  
+  WS_ALL_LAYERS_ACT         CLOSED       30.26 MiB (31731235)         1                   
+  WS_LAYER_ACT_2            CLOSED           .00 B                    3                   
+  WS_LAYER_ACT_1            CLOSED           .00 B                    3                   
+Workspaces total size                    30.26 MiB (31731235)
+
+----- Network Information -----
+Network # Parameters                    93053072
+Parameter Memory                        354.97 MiB (372212288)
+Parameter Gradients Memory              354.97 MiB (372212288)
+Updater                                 <not initialized>
+Params + Gradient + Updater Memory      354.97 MiB (372212288)
+Iteration Count                         0
+Epoch Count                             0
+Backprop Type                           Standard
+Workspace Mode: Training                ENABLED
+Workspace Mode: Inference               ENABLED
+Number of Layers                        6
+Layer Counts
+  ConvolutionLayer                        2
+  DenseLayer                              1
+  OutputLayer                             1
+  SubsamplingLayer                        2
+Layer Parameter Breakdown
+  Idx Name                 Layer Type           Layer # Parameters   Layer Parameter Memory
+  0   layer0               ConvolutionLayer     1520                   5.94 KiB (6080)   
+  1   layer1               SubsamplingLayer     0                         .00 B          
+  2   layer2               ConvolutionLayer     25050                 97.85 KiB (100200) 
+  3   layer3               SubsamplingLayer     0                         .00 B          
+  4   layer4               DenseLayer           93025500             354.86 MiB (372102000)
+  5   layer5               OutputLayer          1002                   3.91 KiB (4008)   
+
+----- Layer Helpers - Memory Use -----
+Total Helper Count                      4
+Helper Count w/ Memory                  0
+Total Helper Persistent Memory Use           .00 B
+
+----- Network Activations: Inferred Activation Shapes -----
+Current Minibatch Size                  3
+Input Shape                             [3, 3, 256, 256]
+Idx Name                 Layer Type           Activations Type                           Activations Shape    # Elements   Memory      
+0   layer0               ConvolutionLayer     InputTypeConvolutional(h=252,w=252,c=20)   [3, 20, 252, 252]    3810240       14.53 MiB (15240960)
+1   layer1               SubsamplingLayer     InputTypeConvolutional(h=126,w=126,c=20)   [3, 20, 126, 126]    952560         3.63 MiB (3810240)
+2   layer2               ConvolutionLayer     InputTypeConvolutional(h=122,w=122,c=50)   [3, 50, 122, 122]    2232600        8.52 MiB (8930400)
+3   layer3               SubsamplingLayer     InputTypeConvolutional(h=61,w=61,c=50)     [3, 50, 61, 61]      558150         2.13 MiB (2232600)
+4   layer4               DenseLayer           InputTypeFeedForward(500)                  [3, 500]             1500           5.86 KiB (6000)
+5   layer5               OutputLayer          InputTypeFeedForward(2)                    [3, 2]               6               24.00 B  
+Total Activations Memory                 28.82 MiB (30220224)
+Total Activations Memory (per ex)         9.61 MiB (10073408)
+Total Activation Gradient Mem.           31.07 MiB (32579496)
+Total Activation Gradient Mem. (per ex)  10.36 MiB (10859832)
+
+----- Network Training Listeners -----
+Number of Listeners                     0
