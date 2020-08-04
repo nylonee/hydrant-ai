@@ -1,1 +1,19 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: C:\Users\Nihal Mirpuri\hydrant-ai\target\scala-2.13\hydrant-ai_2.13-0.0.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\Nihal Mirpuri\hydrant-ai\target\scala-2.13\hydrant-ai_2.13-0.0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Nihal Mirpuri\hydrant-ai\target\scala-2.13\classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Nihal Mirpuri\hydrant-ai\target\scala-2.13\classes\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Nihal Mirpuri\hydrant-ai\target\scala-2.13\classes\Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Nihal Mirpuri\hydrant-ai\target\scala-2.13\classes\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ModelEvaluator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Nihal Mirpuri\hydrant-ai\target\scala-2.13\classes\ModelEvaluator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ModelEvaluator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Nihal Mirpuri\hydrant-ai\target\scala-2.13\classes\ModelEvaluator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Settings$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Nihal Mirpuri\hydrant-ai\target\scala-2.13\classes\Settings$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Settings.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Nihal Mirpuri\hydrant-ai\target\scala-2.13\classes\Settings.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

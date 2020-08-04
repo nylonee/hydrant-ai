@@ -71,7 +71,7 @@ object ModelEvaluator {
     println("try to classify images:\n")
 
     trainIterator.reset()
-    // something goes here :(
+    Settings.predictLabels(model, trainIterator)
 
     println("**************** done ********************")
 
